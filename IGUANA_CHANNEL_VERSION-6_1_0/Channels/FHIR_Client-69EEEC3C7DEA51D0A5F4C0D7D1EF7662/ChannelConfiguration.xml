@@ -1,0 +1,27 @@
+<channel
+   name="FHIR Client"
+   guid="69EEEC3C7DEA51D0A5F4C0D7D1EF7662"
+   description="This is a client channel that demonstrates how to make calls into the FHIR server channel. &#xD;&#xA;&#xD;&#xA;It does this by performing Read/Create/Update/Delete operations on Patient resources through GET/POST/PUT/DELETE HTTP requests.&#xD;&#xA;&#xD;&#xA;http://help.interfaceware.com/v6/fhir-client-and-server"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="FHIR_Client-From-LdNyyotcZLUK3z"
+      commit_id="9cf2e83e3d75c6e1806cd40b648e017027f3fe5e"
+      commit_comment="Import Translators: FHIR import"
+      poll_time="10000">
+   </from_mapper>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
