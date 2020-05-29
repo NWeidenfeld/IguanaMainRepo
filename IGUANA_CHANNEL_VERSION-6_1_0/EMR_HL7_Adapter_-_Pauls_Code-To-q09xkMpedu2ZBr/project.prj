@@ -1,0 +1,27 @@
+{
+    "LocalDependencies": [
+        "CodemapUtil.lua",
+        "Codesets.lua",
+        "Config.lua",
+        "Mapping/ADT/ADTA01.lua",
+        "Mapping/ADT/GeneralMapping.lua",
+        "ReadMeFirst.lua",
+        "VMD/EPIC_ADT_2019.vmd",
+        "VMD/HL7_ADT_2_7.vmd",
+        "VMD/InBound.vmd",
+        "VMD/OutBound.vmd",
+        "filter/ADTA01.lua"
+    ],
+    "LuaDependencies": [
+        "codemap",
+        "mdacc.hl7.construct_msg",
+        "mdacc.hl7.filter_msg"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1590076539",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
