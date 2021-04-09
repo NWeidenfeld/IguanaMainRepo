@@ -1,0 +1,12 @@
+{
+   "Name": "ASTM checksum check digit (To Translator)",
+   "LuaDependencies": [
+      "astm_send",
+      "astm_tcp",
+      "astmutil",
+      "stringutil"
+   ],
+   "OtherDependencies": [
+      
+   ]
+}
